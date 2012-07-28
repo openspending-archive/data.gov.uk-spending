@@ -1,8 +1,8 @@
 (function () {
-  var osPrefix = 'openspendingjs/';
+  var osPrefix = 'http://clients.openspending.org/data.gov.uk/openspendingjs/';
   yepnope({
     load: [
-      'style.css',
+      'http://clients.openspending.org/data.gov.uk/style.css',
       osPrefix+'lib/vendor/jquery.js',
       osPrefix+'lib/vendor/base64.js',
       osPrefix+'lib/vendor/accounting.min.js',
